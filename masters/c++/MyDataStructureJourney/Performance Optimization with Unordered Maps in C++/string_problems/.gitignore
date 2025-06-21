@@ -1,0 +1,14 @@
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+*.log
+*.pyc
+__pycache__/
+
+# Ignore personal folders
+../../../../*
+
+# Ignore IDE files
+.vscode/
+*.ipynb_checkpoints
+- [Maximum Word Break Problem](./string_problems/max_word_break.cpp)
