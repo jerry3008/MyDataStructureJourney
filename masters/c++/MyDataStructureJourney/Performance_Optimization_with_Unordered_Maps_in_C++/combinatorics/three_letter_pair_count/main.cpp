@@ -30,9 +30,5 @@ long long solution(const std::string& s)
             }
         }
     }
-    
-    
-    
-    // TODO: implement the function
     return totalcount;
 }
