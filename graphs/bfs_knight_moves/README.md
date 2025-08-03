@@ -41,3 +41,5 @@ Knight moves only in L-shape
 Coordinates are 0-indexed
 
 Expected time complexity: O(1) (constant max size)
+
+![Knight_Moves](knight_moves.png)
