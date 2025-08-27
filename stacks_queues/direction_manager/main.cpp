@@ -19,7 +19,7 @@ std::pair<int, int>  DirectionManager::move(const std::string& direction)
 
 std::optional<std::pair<int, int>> DirectionManager::undoMove() 
 {
-   if(historyStack.size() < 1)return std::nullopt;
+   if(historyStack.size() <= 1)return std::nullopt;
    auto recent = historyStack.back();
    historyStack.pop_back();
    redoStack.push_back(recent);
