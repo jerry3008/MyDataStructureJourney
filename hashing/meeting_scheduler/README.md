@@ -72,8 +72,6 @@ Key	Description
 "average_attendees"	Average number of attendees per meeting (rounded to nearest integer)
 
 Example Output
-json
-Copy code
 {
   "total_meetings": 3,
   "total_attendees": 10,
